@@ -1,4 +1,6 @@
-nterface WysihtmlEditor {
+// incomplete definitions for https://github.com/xing/wysihtml5/blob/master/dist/wysihtml5-0.3.0.js
+
+interface WysihtmlEditor {
   constructor: ( textareaElement:Element, config:Object ) => void;
   isCompatible: () => boolean;
   clear: () => WysihtmlEditor;
